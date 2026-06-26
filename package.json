@@ -1,0 +1,17 @@
+{
+  "name": "cs",
+  "version": "1.0.0",
+  "description": "A responsive, bilingual restaurant website prototype for Taste of India in Neuenstadt am Kocher.",
+  "main": "menu-data.js",
+  "scripts": {
+    "start": "python -m http.server 4173 --bind 127.0.0.1",
+    "check": "node --check script.js && node --check menu-data.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sharp": "^0.35.2"
+  }
+}
